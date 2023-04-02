@@ -1,0 +1,69 @@
+.header__container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999999;
+  background-color: white;
+}
+.logo__section a {
+  text-decoration: none;
+}
+.logo__section h2 {
+  margin: 0;
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--primary-color);
+}
+.menu__section {
+  flex: 1;
+}
+.menu__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.menu__item {
+  list-style: none;
+  padding: 8px 16px;
+  margin: 0 8px;
+}
+.menu__item a {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-color);
+  letter-spacing: 0.2px;
+}
+.menu__item:hover a {
+  border-bottom: 2px solid var(--secondary-color);
+}
+.contact__section {
+}
+.contact__button {
+  text-decoration: none;
+  padding: 8px 36px;
+  border: 1px solid var(--primary-color);
+  border-radius: 24px;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-color);
+  letter-spacing: 0.2px;
+}
+.contact__button:hover {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}

@@ -1,0 +1,33 @@
+.project__item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  max-width: calc((100% / 16) * 8);
+  margin: 48px auto;
+}
+.project__item.reverse .project__description {
+  text-align: end;
+}
+.project__description h3 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.project__description p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+.project__img {
+  flex: 1;
+  width: 100%;
+  height: 300px;
+}
+.project__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
