@@ -1,16 +1,21 @@
-import React from "react";
-import "./style.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
-  faPhone,
   faLocationDot,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import "./style.css";
 
 function Contact(props) {
   return (
     <div className="contact__container" id="contact">
-      <div className="contact__content">
+      <div
+        className="contact__content"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
         <h3>Contact</h3>
         <p>
           Feel free to get in touch with me. I am always open to discussing new

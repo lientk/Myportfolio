@@ -1,0 +1,8 @@
+.contact__list {
+  position: fixed;
+  right: 0;
+  top: 45%;
+  transform: translateY(-45%);
+  display: flex;
+  flex-flow: column;
+}

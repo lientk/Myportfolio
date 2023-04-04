@@ -50,20 +50,3 @@
 .menu__item:hover a {
   border-bottom: 2px solid var(--secondary-color);
 }
-.contact__section {
-}
-.contact__button {
-  text-decoration: none;
-  padding: 8px 36px;
-  border: 1px solid var(--primary-color);
-  border-radius: 24px;
-  font-family: var(--secondary-font);
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--primary-color);
-  letter-spacing: 0.2px;
-}
-.contact__button:hover {
-  color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}

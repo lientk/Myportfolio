@@ -5,9 +5,7 @@ Footer.propTypes = {};
 function Footer(props) {
   return (
     <div>
-        <span>
-            
-        </span>
+      <span></span>
     </div>
   );
 }

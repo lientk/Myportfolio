@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import "./style.css";
 Button.propTypes = {
   link: PropTypes.string,
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 function Button(props) {

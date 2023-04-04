@@ -1,7 +1,5 @@
 import React from "react";
 import "./style.css";
-import PropTypes from "prop-types";
-About.propTypes = {};
 
 function About(props) {
   return (
