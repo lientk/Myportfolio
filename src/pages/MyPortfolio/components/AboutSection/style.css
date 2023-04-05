@@ -1,5 +1,5 @@
 .about__container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-flow: row nowrap;
   align-items: center;

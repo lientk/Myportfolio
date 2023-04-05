@@ -3,6 +3,7 @@
   border: 1px solid var(--primary-color);
   border-radius: 24px;
   background-color: white;
+  max-width: 240px;
 }
 .button + .button {
   margin-left: 16px;

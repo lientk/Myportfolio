@@ -11,9 +11,13 @@ body {
   --secondary-font: "Jost", sans-serif;
   --primary-color: #292f36;
   --secondary-color: #cda274;
+  --secondary-color1: #f4f0ec;
 }
 .col-2 {
   width: calc(100% / 2);
+}
+.col-3 {
+  width: calc(100% / 3);
 }
 .col-4 {
   width: calc(100% / 4);

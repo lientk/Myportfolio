@@ -1,8 +1,9 @@
 .contact__container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 120px;
 }
 .contact__content {
   width: calc(100% / 16 * 12);

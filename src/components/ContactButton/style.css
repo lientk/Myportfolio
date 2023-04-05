@@ -3,6 +3,7 @@
   height: 56px;
   border: none;
   margin-bottom: 16px;
+  background-color: var(--secondary-color1);
 }
 .contact__link {
   width: 100%;

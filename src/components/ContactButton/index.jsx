@@ -22,7 +22,7 @@ function ContactButton(props) {
         className="contact__link"
         rel="noreferrer"
       >
-        {contact.icon}
+        {contact.children}
       </a>
     </button>
   );

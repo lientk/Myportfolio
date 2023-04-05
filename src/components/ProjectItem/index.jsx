@@ -1,12 +1,11 @@
 import React from "react";
-import test from "../../assets/images/132726218_1896005157225297_7414236719923744195_n.jpg";
 import Button from "../Button";
 import "./style.css";
 function ProjectItem(props) {
-  const { isReverse } = props;
+  const { project } = props;
   return (
     <>
-      {isReverse ? (
+      {project.isReverse ? (
         <div
           className="project__item"
           data-aos="fade-right"
@@ -14,13 +13,13 @@ function ProjectItem(props) {
           data-aos-delay="200"
         >
           <div className="project__description col-2">
-            <h3>Project Name</h3>
-            <p>Technologies Development</p>
-            <Button link={"/"} children="Github" />
-            <Button link={"/"} children="Demo" />
+            <h3>{project.project__name}</h3>
+            <p>{project.project__description}</p>
+            <Button link={project.github__link} children="Github" />
+            <Button link={project.demo__link} children="Demo" />
           </div>
           <div className="project__img col-2">
-            <img src={test} alt="" />
+            <img src={project.project__thumb} alt="" />
           </div>
         </div>
       ) : (
@@ -31,13 +30,13 @@ function ProjectItem(props) {
           data-aos-delay="200"
         >
           <div className="project__img col-2">
-            <img src={test} alt="" />
+            <img src={project.project__thumb} alt="" />
           </div>
           <div className="project__description col-2">
-            <h3>Project Name</h3>
-            <p>Technologies Development</p>
-            <Button link={"/"} children="Github" />
-            <Button link={"/"} children="Demo" />
+            <h3>{project.project__name}</h3>
+            <p>{project.project__description}</p>
+            <Button link={project.github__link} children="Github" />
+            <Button link={project.demo__link} children="Demo" />
           </div>
         </div>
       )}

@@ -16,31 +16,35 @@ function ContactList() {
     {
       id: 1,
       link: "https://www.facebook.com/WsRV.Tien69/",
-      icon: <FontAwesomeIcon className="contact__icon" icon={faFacebookF} />,
+      children: (
+        <FontAwesomeIcon className="contact__icon" icon={faFacebookF} />
+      ),
       delay: "200",
     },
     {
       id: 2,
       link: "https://www.instagram.com/keem_liennn/",
-      icon: <FontAwesomeIcon className="contact__icon" icon={faInstagram} />,
+      children: (
+        <FontAwesomeIcon className="contact__icon" icon={faInstagram} />
+      ),
       delay: "300",
     },
     {
       id: 3,
       link: "mailto:truonglien01102001@gmail.com",
-      icon: <FontAwesomeIcon className="contact__icon" icon={faEnvelope} />,
+      children: <FontAwesomeIcon className="contact__icon" icon={faEnvelope} />,
       delay: "400",
     },
     {
       id: 4,
       link: "https://www.linkedin.com/in/lien-truong-4b403a230/",
-      icon: <FontAwesomeIcon className="contact__icon" icon={faLinkedin} />,
+      children: <FontAwesomeIcon className="contact__icon" icon={faLinkedin} />,
       delay: "500",
     },
     {
       id: 5,
       link: "https://github.com/Lien-1",
-      icon: <FontAwesomeIcon className="contact__icon" icon={faGithub} />,
+      children: <FontAwesomeIcon className="contact__icon" icon={faGithub} />,
       delay: "600",
     },
   ];
