@@ -15,7 +15,12 @@ function Intro(props) {
             Hi, I'm Kim Lien. A passionate Front-End React Developer based in Ho
             Chi Minh City.
           </p>
-          <Button children="Download My CV" />
+          <Button
+            link={
+              "https://drive.google.com/file/d/1vO3Ap27cg7lb2B5eHzgnoI5JG6bI63Yc/view?usp=sharing"
+            }
+            children="Download My CV"
+          />
         </div>
         <div className="intro__img col-2">
           <img src={image} alt="" />

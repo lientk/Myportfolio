@@ -33,15 +33,6 @@ function ProjectList(props) {
       demo__link: "",
       isReverse: false,
     },
-    {
-      project__id: 4,
-      project__name: "IternoWeb",
-      project__description: "",
-      project__thumb: "../../assets/projects/interno_web.png",
-      github_link: "",
-      demo__link: "",
-      isReverse: true,
-    },
   ];
   return (
     <>
