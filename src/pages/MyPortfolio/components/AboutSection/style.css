@@ -37,10 +37,16 @@
   color: var(--secondary-color);
 }
 .img__content {
-  width: 480px;
-  height: 320px;
-  background-image: url("../../../../assets/images/132726218_1896005157225297_7414236719923744195_n.jpg");
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../../../../assets/images/132726218_1896005157225297_7414236719923744195_n.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right 35% bottom 45%; */
   margin-right: 24px;
+}
+.img__content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

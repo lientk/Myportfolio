@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../../../assets/images/132726218_1896005157225297_7414236719923744195_n.jpg";
 import "./style.css";
 
 function About(props) {
@@ -11,7 +12,9 @@ function About(props) {
         data-aos-delay="200"
       >
         <div className="content__detail">
-          <div className="img__content"></div>
+          <div className="img__content">
+            <img src={image} alt="" />
+          </div>
           <div className="text__content">
             <h2>About me</h2>
             <p>

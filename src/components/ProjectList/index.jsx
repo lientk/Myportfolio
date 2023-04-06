@@ -1,6 +1,7 @@
 import React from "react";
 import internoweb from "../../assets/projects/interno_web.png";
 import myportfolio from "../../assets/projects/myportfolio.png";
+import shoesstore from "../../assets/projects/shoesstore_web.png";
 import ProjectItem from "../ProjectItem";
 
 function ProjectList(props) {
@@ -27,7 +28,7 @@ function ProjectList(props) {
       project__id: 3,
       project__name: "Shoes Store Web",
       project__description: "",
-      project__thumb: "../../assets/projects/interno_web.png",
+      project__thumb: shoesstore,
       github_link: "https://github.com/Doan-1/Front-end",
       demo__link: "",
       isReverse: false,
